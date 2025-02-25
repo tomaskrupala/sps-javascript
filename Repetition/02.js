@@ -1,4 +1,4 @@
-// This file is for exercising what was tough in second school lecture. Covers 03 (second half) - 04.
+// This file is for exercising what was tough in second school lecture. Covers 03 (second half) - 05.
 
 let pie = 3.14; // number
 let notMyName = "John"; // string

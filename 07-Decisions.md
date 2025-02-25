@@ -29,7 +29,7 @@ In case we need to execute specific code for condition evaluated to `false` we c
     const legalDrinkingAge = 18;
     let myAge = 17;
 
-    if (myAge > legalDrinkingAge) {
+    if (myAge >= legalDrinkingAge) {
         console.log("Yes, I can!");
     } else {
         console.log("No, I can't!");

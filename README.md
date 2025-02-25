@@ -28,3 +28,5 @@ There is folder `Exercise` which contains some exercises for main topics. This i
 - Collections
 - Making decisions
 - Looping around
+- Functions
+- Objects

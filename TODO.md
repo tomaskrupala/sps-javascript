@@ -1,17 +1,7 @@
 This is list of things which needs to be done. They are not in any particular order.
 
-- Pirate ship
-- small practical tasks for exercise
 - theory
-  - hoisting
   - functions
-  - data structures
-    - arrays
-    - sets
-    - maps
-  - loops
-    - while
-    - for
   - objects
   - events
   - DOM manipulation
