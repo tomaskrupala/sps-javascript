@@ -56,7 +56,7 @@ if (schoolHomeworks > 0) {
   console.log("I have to do school homeworks first!");
 } else if (houseChoresLeft > 0) {
   console.log("I still have house chores to do.");
-} else if (bedTime > timeNow) {
+} else if ( timeNow >bedTime) {
   console.log("I should go to bed.");
 } else {
   console.log("I can play games!");

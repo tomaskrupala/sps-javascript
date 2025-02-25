@@ -1,16 +1,26 @@
-let myAge = 40;
-let haveFireworksLicense = true;
+ // script execution
 
-let fireworksCategory;
+    // returns random integer between 0 and max (exclusive)
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
 
-if (haveFireworksLicense) {
-    fireworksCategory = "F4";
-} else if (myAge >= 21) {
-    fireworksCategory = "F3";
-} else if (myAge >= 18) {
-    fireworksCategory = "F2";
-} else if (myAge >= 15) {
-    fireworksCategory = "F1";
-} else {
-    fireworksCategory = "None";
-}
+    // do-while loop
+    const requiredPointsToSucceed = 90;
+
+    let passed = false;
+    let tries = 0;
+
+    do {
+        tries++;
+
+        const points = getRandomInt(101);
+
+        console.log(`Try ${tries}: ${points} points`);
+
+        if (points >= requiredPointsToSucceed) {
+            passed = true;
+        }
+    } while (!passed);
+
+    console.log(`You passed after ${tries} tries congratulation!`);
